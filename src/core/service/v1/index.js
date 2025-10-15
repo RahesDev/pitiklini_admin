@@ -1,5 +1,4 @@
 const service = {
-
   signup: "users/register",
   emailotpverify: "users/emailotpverify",
   resendCode: "users/resendCode",
@@ -12,11 +11,11 @@ const service = {
 
   dashboardcounts: "adminapi/dashboard-counts",
   changeUserAccountStatus: "adminapi/changeUserAccountStatus",
+  changeVipBadgeStatus: "adminapi/changeVipBadgeStatus",
   kycAprove: "adminapi/kycAprove",
   kycReject: "adminapi/kycReject",
   p2pchat: "adminapi/p2p_chat",
   updatedispute: "p2p/update_dispute_statusbyadmin",
-
 
   getKyclist: "adminapi/getKyclist",
 
@@ -36,7 +35,6 @@ const service = {
   getTradepairOne: "adminapi/tradepair/getTradepairOne",
   addTradePair: "adminapi/tradepair/addTradePair",
   deletetradepair: "adminapi/tradepair/deletetradepair",
-
 
   getAdminTfaDetials: "adminapi/getQRcode",
   adminChangeTfaStatus: "adminapi/changeTfaStatus",
@@ -107,9 +105,7 @@ const service = {
   getadminProfitDetails: "adminapi/getProfitDetails",
   downloadProfits: "adminapi/downloadProfits",
 
-
   getdisputechat: "adminapi/get_dispute_chat",
-
 
   //wallet
   wallet_login: "adminapi/wallet_login",
@@ -125,7 +121,7 @@ const service = {
   payment_method_get: "adminapi/payment_method_get",
   payment_method_update: "adminapi/payment_method_update",
   payment_method_delete: "adminapi/payment_method_delete",
-  confirm_p2pOrder: "adminapi/release_coin"
+  confirm_p2pOrder: "adminapi/release_coin",
 };
 
 export default service;
