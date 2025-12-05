@@ -120,7 +120,6 @@ function Sidebar() {
             <NavLink to="/currencymanagement" className="navlink_new">
               <div className="chat-optionside">
                 <div className="menu_items_fex">
-
                   <i class="fa-solid fa-coins svg-side"></i>
                 </div>
                 <span className="side-name">Currency</span>
@@ -140,6 +139,14 @@ function Sidebar() {
                   <i class="fa-solid fa-user-tie svg-side"></i>
                 </div>
                 <span className="side-name"> Admin Wallet </span>
+              </div>
+            </NavLink>
+            <NavLink to="/vipmanagement" className="navlink_new">
+              <div className="chat-optionside">
+                <div className="menu_items_fex">
+                  <i class="fa-solid fa-ribbon svg-side"></i>
+                </div>
+                <span className="side-name"> VIP Management </span>
               </div>
             </NavLink>
             {/* <NavLink to="/adminwallet" className="navlink_new">
@@ -195,7 +202,7 @@ function Sidebar() {
             <NavLink to="/p2p_payment_method" className="navlink_new">
               <div className="chat-optionside">
                 <div className="menu_items_fex">
-                <i class="fa-solid fa-link svg-side"></i>
+                  <i class="fa-solid fa-link svg-side"></i>
                 </div>
                 <span className="side-name">P2P Payment Methods</span>
               </div>
@@ -204,7 +211,7 @@ function Sidebar() {
             <NavLink to="/P2Porders" className="navlink_new">
               <div className="chat-optionside">
                 <div className="menu_items_fex">
-                <i class="fa-solid fa-link svg-side"></i>
+                  <i class="fa-solid fa-link svg-side"></i>
                 </div>
                 <span className="side-name">P2P Orders</span>
               </div>
@@ -213,7 +220,7 @@ function Sidebar() {
             <NavLink to="/P2Pdispute" className="navlink_new">
               <div className="chat-optionside">
                 <div className="menu_items_fex">
-                <i class="fa-solid fa-triangle-exclamation svg-side"></i>
+                  <i class="fa-solid fa-triangle-exclamation svg-side"></i>
                 </div>
                 <span className="side-name">P2P Dispute</span>
               </div>
@@ -222,7 +229,7 @@ function Sidebar() {
             <NavLink to="/swaping" className="navlink_new">
               <div className="chat-optionside">
                 <div className="menu_items_fex">
-                <i class="fa-solid fa-shuffle svg-side"></i>
+                  <i class="fa-solid fa-shuffle svg-side"></i>
                 </div>
                 <span className="side-name">Swaping</span>
               </div>
@@ -318,8 +325,6 @@ function Sidebar() {
               </div>
             </NavLink> */}
 
-             
-
             <NavLink to="/sitesetting" className="navlink_new">
               <div className="chat-optionside">
                 <div className="menu_items_fex">
@@ -328,13 +333,11 @@ function Sidebar() {
                 <span className="side-name">Site Settings</span>
               </div>
             </NavLink>
-
-            
           </div>
           <div className="pos-abs">
             <div className="side-lo-div" onClick={logout}>
               <div className="chat-optionside">
-                <div className="menu_items_fex" >
+                <div className="menu_items_fex">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="svg-side"

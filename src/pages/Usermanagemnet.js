@@ -243,7 +243,7 @@ function Dashboard() {
                             <th>TFA Status</th>
                             <th>Kyc Status</th>
                             <th>Disable User</th>
-                            <th>VIP Badge</th>
+                            {/* <th>VIP Badge</th> */}
                           </tr>
                         </thead>
                         <tbody>
@@ -332,7 +332,7 @@ function Dashboard() {
                                   </label>
                                 </td>
 
-                                <td>
+                                {/* <td>
                                   <label className="switch">
                                     <input
                                       type="checkbox"
@@ -346,7 +346,7 @@ function Dashboard() {
                                     />
                                     <span className="slider round"></span>
                                   </label>
-                                </td>
+                                </td> */}
                               </tr>
                             ))
                           ) : (

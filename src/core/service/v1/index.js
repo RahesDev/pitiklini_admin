@@ -122,6 +122,11 @@ const service = {
   payment_method_update: "adminapi/payment_method_update",
   payment_method_delete: "adminapi/payment_method_delete",
   confirm_p2pOrder: "adminapi/release_coin",
+
+  //vip
+  getVipDatas: "adminapi/getVipDatas",
+  saveVipDatas: "adminapi/saveVipDatas",
+  getUSDTtoPTK: "adminapi/getUSDTtoPTK",
 };
 
 export default service;

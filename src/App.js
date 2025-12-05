@@ -36,6 +36,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./App.css";
 import { removeAuthToken } from "../src/core/lib/localStorage";
+import VipManagement from "./pages/VipManagement";
 
 function App() {
   function RequireAuth({ children }) {
@@ -95,6 +96,14 @@ function App() {
             element={
               <RequireAuth>
                 <User />
+              </RequireAuth>
+            }
+          />
+          <Route
+            path="/vipmanagement"
+            element={
+              <RequireAuth>
+                <VipManagement />
               </RequireAuth>
             }
           />
@@ -259,7 +268,7 @@ function App() {
               </RequireAuth>
             }
           />
-           <Route
+          <Route
             path="/P2Porders"
             element={
               <RequireAuth>
